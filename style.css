@@ -1,0 +1,95 @@
+
+*{
+    line-height: 0;
+
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(112, 228, 128, 0.997);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.setcolor1{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(112, 228, 128, 0.997);
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.setcolor1 h1,p{
+
+    color: rgba(112, 228, 128, 0.997);
+}
+.setcolor2{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(112, 228, 128, 0.997);
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    height: 400px;
+    margin-top: 20px;
+}
+.setcolor2 h1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    color: rgba(112, 228, 128, 0.997);
+}
+
+
+
+
+
+.warnaMerah{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 100px;
+}
+.warnaHijau{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+.warnaBiru{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.hasilWarna{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: black;
+}
